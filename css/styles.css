@@ -1,0 +1,26 @@
+body {
+  background-image : url('../img/prague1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.panel, .container {
+  opacity: .85;
+}
+
+footer {
+  background-color: #6e13a5;
+  color: white;
+  height: 5vh;
+  font-size: 1.1em;
+  padding-top: 1em;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+}
+footer a:hover{
+  text-decoration: none;
+  color: grey;
+  font-size: 1.2em;
+}

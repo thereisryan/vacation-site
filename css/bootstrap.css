@@ -17,6 +17,7 @@ aside,
 details,
 figcaption,
 figure,
+footer,
 header,
 hgroup,
 main,
@@ -40,22 +41,6 @@ audio:not([controls]) {
 [hidden],
 template {
   display: none;
-}
-footer {
-  background-color: #6e13a5;
-  color: white;
-  height: 5vh;
-  font-size: 1.1em;
-  padding-top: 1em;
-}
-footer a{
-  text-decoration: none;
-  color: white;
-}
-footer a:hover{
-  text-decoration: none;
-  color: grey;
-  font-size: 1.2em;
 }
 a {
   background-color: transparent;
@@ -4971,10 +4956,11 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  background-image : url('../img/prague1.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -5463,14 +5449,11 @@ button.list-group-item-danger.active:focus {
 }
 .panel {
   margin-bottom: 20px;
-  margin-left: 10vh;
-  margin-right: 10vh;
   background-color: #fff;
   border: 1px solid transparent;
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
           box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
-  opacity: .75;
 }
 .panel-body {
   padding: 15px;
